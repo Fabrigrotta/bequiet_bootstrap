@@ -36,6 +36,11 @@
     margin: 0px;
 }
 
+.imgCitaciones {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 
 
@@ -51,4 +56,15 @@
 footer {
     background-color: black;
     color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn {
+    background-color: black;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
