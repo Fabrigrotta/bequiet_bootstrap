@@ -1,20 +1,54 @@
-* {
+/* Background */
+.headerIndex {
+    background-image: url(../assets/img/bgIndex.png);
+    height: 950px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+/* Div colors */
+.divRegistro {
+    background-color: #A8D8EA;
     padding: 0px;
     margin: 0px;
 }
 
-/* Background */
-.headerIndex {
-    background-image: url(../assets/img/bgIndex.png);
-    height: 870px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
+.divVT {
+    background-color: #AA96DA;
+    margin: 0px;
 }
+
+.divCitaciones {
+    background-color: #7771E0;
+}
+
+
+/* Imgs */
+.imgRegistro {
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+}
+
+.imgTodos {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
 
 .info__tituloVT {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+}
+
+.iconCitaciones {
+    width: 20%;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
