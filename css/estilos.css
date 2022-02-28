@@ -9,6 +9,8 @@
 
 .iconCitaciones {
     width: 20%;
+    position: relative;
+    left: 130px;
 }
 
 /* Background */
@@ -129,10 +131,9 @@ footer {
 
 .linea {
     background-color: black;
-    height: 50px;
+    height: 25%;
 }
 
-
-
-
-
+.botones {
+    padding-bottom: 30px;
+}
