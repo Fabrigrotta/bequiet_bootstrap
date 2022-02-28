@@ -94,6 +94,10 @@
     background-color: #FFCDD2;
 }
 
+.div__fundadores {
+    background-color: #90CAF9;
+}
+
 /* Contacto */
 .divContacto {
     background-color: #7771E0;
@@ -236,6 +240,25 @@
     font-size: 20px;
     font-weight: 100;
     padding: 50px;
+}
+
+.sobreNosotros2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 50px;
+    text-align: center;
+    padding-left: 100px;
+    word-break: break-all;
+}
+
+.fundadores {
+    text-align: start;
+    padding-left: 70px;
+}
+
+.coofundadora {
+    text-align: start;
+    padding-left: 20px;
 }
 
 
