@@ -22,6 +22,7 @@
 }
 
 /* Div colors */
+/* Home */
 .divRegistro {
     background-color: #A8D8EA;
     padding: 0px;
@@ -37,6 +38,10 @@
     background-color: #7771E0;
 }
 
+/* Prodcutos */
+.bgDiv {
+    background-color: #af3b82;
+}
 
 /* Imgs */
 .imgRegistro {
@@ -52,6 +57,10 @@
 .imgCitaciones {
     padding: 0px;
     margin: 0px;
+}
+
+.img__todas {
+    padding: 50px
 }
 
 /* Nav */
@@ -117,12 +126,23 @@
     padding-top: 50px;
 }
 
+/* Productos */
+.bgDiv__text {
+    font-size: 90px;
+    font-weight: 500;
+}
+
 /* Footer */
 footer {
     background-color: black;
     color: white;
     padding: 0px;
     margin: 0px;
+}
+
+.linea {
+    background-color: black;
+    height: 50px;
 }
 
 
