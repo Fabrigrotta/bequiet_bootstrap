@@ -18,50 +18,53 @@
 </head>
 
 <body>
+    <div class="container-fluid">
 <!-- Encabezado -->
 <header>
 
 <!-- Listas / Menu -->
-<div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
-        <img class="Imglogo" src="../assets/img/logo.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav  mx-auto">
-                <li>
-                    <a class="nav-link active" href="../index.html">
-                        Inicio <span class="index.html"></span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../views/productos.html">
-                        Productos
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../views/nosotros.html">
-                        Nosotros
-                    </a>
-                </li>
-                    <a class="nav-link" href="../views/contacto.html">
-                        Contacto
-                    </a>
-                <li>
-                    <a class="nav-link" href="../views/registro.html">
-                        Registro
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+            <img class="Imglogo" src="../assets/img/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav  mx-auto">
+                    <li>
+                        <a class="nav-link active" href="../index.html">
+                            Inicio <span class="index.html"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../views/productos.html">
+                            Productos
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="../views/nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+                        <a class="nav-link" href="../views/contacto.html">
+                            Contacto
+                        </a>
+                    <li>
+                        <a class="nav-link" href="../views/registro.html">
+                            Registro
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 </header>
 
 <!-- Contenido -->
 <main>
+    <div class="row">
+    <div class="divContacto col-7 d-flex flex-column justify-content-between">
     <div>
         <h2>
             ¿Tienes alguna pregunta?
@@ -73,6 +76,7 @@
     <div>
         <h3>Contactanos</h3>
     </div>
+
 
 <!-- Formulario de contacto -->
 <form action="">
@@ -88,41 +92,47 @@
         <input type="submit" name="enviar">
     </div>
 </form>
+</div>
+
+        <div class="col-lg-5">
+            <img class="img-fluid" src="../assets/img/contacto.jpg" alt="fotoContacto">
+        </div>
+    </div>
 
 </main>
 
 <!-- Footer -->
 <footer>
-    <!-- Formulario ingreso -->
+<!-- Formulario ingreso -->
         <div class="row d-flex justify-content-center">
-    <!-- Default form login -->
+<!-- Default form login -->
             <form class="col-lg-5 col-10s text-center p-5" action="#!">
                     <p class="h4 mb-4">
                         Ingreso
                     </p>
-    <!-- Email -->
+<!-- Email -->
                 <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-    <!-- Password -->
+<!-- Password -->
                 <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
         <div class="d-flex justify-content-around">
         <div>
-    <!-- Remember me -->
+<!-- Remember me -->
         <div class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
                 <label class="custom-control-label" for="defaultLoginFormRemember">Recuerdame</label>
         </div>
         </div>
         <div>
-    <!-- Forgot password -->
+<!-- Forgot password -->
                 <a href="">
                     ¿Olvidaste tu contraseña?
                 </a>
         </div>
         </div>
-        <!-- Sign in button -->
+<!-- Sign in button -->
                     <button class="btn btn-info btn-block my-4" type="submit">Ingresar
                     </button>
-    <!-- Register -->
+<!-- Register -->
                     <p>¿No eres miembro?
                         <a href="views/registro.html">
                             Registrarse
@@ -153,6 +163,7 @@
         </div>
     </footer>
 
+    </div>
 </body>
 
 <!-- Script bootstrap -->
