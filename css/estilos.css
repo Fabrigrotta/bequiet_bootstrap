@@ -86,6 +86,14 @@
     background-color: #7771E0;
 }
 
+.div__nuestraHistoria {
+    background-color: #E57373;
+}
+
+.div__nuestraHistoria1 {
+    background-color: #FFCDD2;
+}
+
 /* Imgs */
 .img__todas {
     padding: 50px
@@ -221,6 +229,7 @@
 
 .texto__sobreNosotros {
     font-size: 20px;
+    font-weight: 100;
     padding: 50px;
 }
 
