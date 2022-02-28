@@ -24,6 +24,26 @@
     padding: 0px;
 }
 
+.divMarca {
+    background-image: url(../assets/img/bgNosotros.jpg);
+    height: 950px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+    padding: 0px;
+}
+
+.bgNosotros {
+    background-image: url(../assets/img/bgNosotros1.jpg);
+    height: 742px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+    padding: 0px;
+}
+
 /* Div colors */
 /* Home */
 .divRegistro {
@@ -48,8 +68,22 @@
     background-color: #FF895D;
 }
 
-.divMarca {
-    background-color: #5f61e6;
+/* Nosotros */
+.divMarca1 {
+    background-color: #FBF4EB
+    ;
+}
+
+.div__sobreNosotros {
+    background-color: #FFCDD2;
+}
+
+.div__sobreNosotros1 {
+    background-color: #E57373;
+}
+
+.sobreNosotros1 {
+    background-color: #7771E0;
 }
 
 /* Imgs */
@@ -177,6 +211,18 @@
     font-weight: 100;
 }
 
+.sobreNosotros {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 60px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.texto__sobreNosotros {
+    font-size: 20px;
+    padding: 50px;
+}
 
 
 /* Footer */
