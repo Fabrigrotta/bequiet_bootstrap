@@ -113,6 +113,10 @@
     padding: 50px;
 }
 
+.footer__texto {
+    padding-top: 50px;
+}
+
 /* Footer */
 footer {
     background-color: black;
