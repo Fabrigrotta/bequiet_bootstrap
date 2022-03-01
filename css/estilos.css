@@ -103,6 +103,24 @@
     background-color: #7771d6;
 }
 
+/* Registro */
+.divRegistro {
+    background-color: #7771d6;
+    text-align: center;
+}
+
+.divFormulario {
+    background-color: #e6b5ba;
+}
+
+.divTerminos {
+    background-color: #90CAF9;
+}
+
+.div__tyCondiciones {
+    background-color: #E8DDD4
+}
+
 /* Imgs */
 .img__todas {
     padding: 50px
@@ -280,6 +298,29 @@
     padding: 20px 100px;
 }
 
+/* Registro */
+.tituloRegistro {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.tyCondiciones {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 50px;
+    padding-bottom: 200px;
+}
+
+.texto__condiciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 60px;
+}
 
 /* Footer */
 footer {
@@ -316,7 +357,15 @@ footer {
     text-align: center;
 }
 
-.formulario {
-    padding: -200px;
+.boton_terminosCondiciones {
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
+.genero {
+    padding-left: 20px;
+}
+
+.terminosCondiciones {
+    padding: 20px;
+}
