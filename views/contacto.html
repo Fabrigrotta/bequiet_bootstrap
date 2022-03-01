@@ -64,41 +64,59 @@
 <!-- Contenido -->
 <main>
     <div class="row">
-    <div class="divContacto col-7 d-flex flex-column justify-content-between">
-    <div>
-        <h2>
-            ¿Tienes alguna pregunta?
-        </h2>
-        <h2>
-            Sientente libre de contactarnos
-        </h2>
-    </div>
-    <div>
-        <h3>Contactanos</h3>
-    </div>
+        <div class="divContacto col-lg-7 col-12">
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center">
+                    <h2 class="tituloContactos">
+                        ¿Tienes alguna pregunta?
+                    </h2>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <h2 class="tituloContactos">
+                        Sientente libre de contactarnos
+                    </h2>
+                </div>
+                <div class="d-flex flex-row justify-content-start">
+                    <h3 class="formColor contactanos">
+                        Contactanos
+                    </h3>
+                </div>
+            </div>
 
 
-<!-- Formulario de contacto -->
-<form action="">
-        <input tpye="text" name="nombre" placeholder="Nombre"><br>
-        <input type="text" name="apellido" placeholder="Apellido"><br>
-        <input type="text" name="email" placeholder="Correo Electronico"><br>
-        <input type="text" name="asunto" placeholder="Asunto"><br>
-    <div>
-        <textarea name="" id="" cols="40" rows="15">
-        </textarea>
-    </div>
-    <div>
-        <input type="submit" name="enviar">
-    </div>
-</form>
-</div>
+<!-- Formulario Contactos -->
+        <form class="row" action="">
+            <div class="formulario d-flex flex-column align-items-center col-lg-12">
+                <div class="form-group">
+                    <label class="formColor" for="usr">Nombre:</label>
+                    <input type="text" class="form-control col-lg-12" id="usr" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label class="formColor" for="usr">Apellido:</label>
+                    <input type="text" class="form-control col-lg-12" id="usr" placeholder="Apellido" required>
+                </div>
+                <div class="form-group">
+                    <label class="formColor" for="usr">E-mail:</label>
+                    <input type="email" class="form-control col-lg-12" id="usr" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <label class="formColor" for="usr">Asunto:</label>
+                    <input type="text" class="form-control col-lg-12" id="usr" placeholder="Asunto" required>
+                </div>
+    </form>
+                <div class="form-group">
+                    <textarea class="form-control col-lg-12" rows="5" id="comment" placeholder="Agregar mensaje"></textarea>
+                </div>
+                <div class="botonEnviar">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-12">
             <img class="img-fluid" src="../assets/img/contacto.jpg" alt="fotoContacto">
         </div>
     </div>
-
 </main>
 
 <!-- Footer -->
