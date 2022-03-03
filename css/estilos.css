@@ -326,11 +326,12 @@
 footer {
     background-color: black;
     color: white;
-    padding: 0px;
-    margin: 0px;
+    padding: -15px;
+    margin: -15px;
 }
 
 
+/* Extras */
 .botones {
     padding-bottom: 30px;
 }
